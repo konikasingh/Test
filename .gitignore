@@ -1,0 +1,36 @@
+# Node.js
+node_modules/
+npm-debug.log
+.env
+
+# Logs
+logs
+*.log
+
+# OS and IDE
+.DS_Store
+.vscode/
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# VS Code settings
+*.code-workspace
+
+# Optional:
+*.pem
+*.crt
+*.key
+
+# Build
+dist/
+coverage/
+
+# Misc
+*.swp
